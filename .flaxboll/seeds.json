@@ -1,3 +1,4 @@
+
 {
   "sss_dirSystem": {
     "capsCodeInfo": {
@@ -1132,7 +1133,7 @@
                 "en": ""
               },
               "capsIptCapsDfCode": "()=>{}",
-              "capsIptCapsTypesToAdd": ["function", "custom capsule"]
+              "capsIptCapsTypesToAdd": ["function"]
             }
           },
           "ccc_funcGroup-1": {
@@ -2081,8 +2082,7 @@
               "capsIptCapsTypesToAdd": [
                 "string process",
                 "free value",
-                "value process",
-                "custom capsule"
+                "value process"
               ]
             }
           }
@@ -2189,7 +2189,7 @@
           "en": "Custom Capsule"
         },
         "capsDescription": { "pt-br": "", "en": "" },
-        "capsCodeTypes": ["custom capsule", "Elemento de Tela"],
+        "capsCodeTypes": ["custom capsule"],
         "capsCodeText": "!#!custom capsule!#!",
         "capsCodeVersionID": "1",
         "capsCodeInputs": {

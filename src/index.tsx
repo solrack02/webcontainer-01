@@ -40,6 +40,7 @@
               ],
 
           screenElements:[
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -54,7 +55,7 @@
 
             args,
           }}/>
-        ],
+        , () => <RN.Text>Custom</RN.Text>],
 
           functions:[()=>{}],
 
