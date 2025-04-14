@@ -55,7 +55,7 @@
 
             args,
           }}/>
-        , () => <RN.Text style={{width: 20, height: 20, backgroundColor: "red"}}>Custom</RN.Text>],
+        , () => <RN.Text style={{width: 120, height: 20, backgroundColor: "red"}}>Custom</RN.Text>],
 
           functions:[()=>{}],
 
