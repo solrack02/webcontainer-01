@@ -87,14 +87,14 @@
 
 	return (
 		<RN.View style={style_1}>
-			<RN.Pressable style={style_2} onPress={() => setNumber(i => i + 1)}>
-				<RN.Text style={style_4}>+</RN.Text>
+			<RN.Pressable style={style_2} onPress={() => setNumber(i => Math.max(0, i - 1))}>
+				<RN.Text style={style_4}>-</RN.Text>
 			</RN.Pressable>
 
 			<RN.Text style={style_3}>{sttNumber}</RN.Text>
 
-			<RN.Pressable style={style_2} onPress={() => setNumber(i => Math.max(0, i - 1))}>
-				<RN.Text style={style_4}>-</RN.Text>
+			<RN.Pressable style={style_2} onPress={() => setNumber(i => i + 1)}>
+				<RN.Text style={style_4}>+</RN.Text>
 			</RN.Pressable>
 		</RN.View>
 	);
