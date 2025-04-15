@@ -55,7 +55,8 @@
 
             args,
           }}/>
-        , () => {
+        , 
+        () => {
 	const [sttNumber, setNumber] = React.useState(0);
 
 	const style_1 = {
@@ -98,7 +99,22 @@
 			</RN.Pressable>
 		</RN.View>
 	);
-}],
+}, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            "Escreva..."
+          ],
+
+          args,
+
+        }}/>],
 
           functions:[()=>{}],
 
