@@ -69,7 +69,7 @@
 	};
 
 	const style_2 = {
-		backgroundColor: "#0064FE",
+		backgroundColor: "red",
 		alignItems: "center",
 		justifyContent: "center",
 		borderRadius: 3,
